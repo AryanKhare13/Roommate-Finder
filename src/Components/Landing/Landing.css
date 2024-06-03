@@ -1,0 +1,134 @@
+/* General Container CSS */
+main {
+  display: flex;
+  flex-direction: column;
+}
+
+.landing__Container {
+  display: flex;
+}
+
+@media (max-width: 992px) {
+  .landing__Container {
+    display: block;
+  }
+}
+
+/* Main Content (Left Side) */
+
+.landing__Content {
+  width: 70vw;
+  height: 100vh;
+  background-color: #e3f1ff;
+  position: relative;
+}
+
+.landing__Logo {
+  padding: 2rem 0 0 0;
+  width: 8rem;
+  height: auto;
+}
+
+.landing__h1 {
+  font-size: 2.5rem;
+  font-weight: 800;
+  font-style: normal;
+  color: #010a58;
+}
+
+.landing__h2 {
+  font-size: 1.8rem;
+  font-weight: 600;
+  color: #020826;
+}
+
+ol {
+  color: #020826;
+  font-weight: 500;
+}
+
+.landing__Illustration {
+  position: relative;
+  z-index: 1;
+  width: 100%;
+  height: auto;
+  position: absolute;
+  bottom: 0;
+}
+
+.landing__P {
+  width: 45%;
+  color: #2d334a;
+  font-size: 0.8rem;
+  position: absolute;
+  bottom: 1rem;
+  padding-left: 3rem;
+  z-index: 10;
+}
+
+.landing__LoginMobile {
+  visibility: hidden;
+  display: none;
+}
+
+@media (max-width: 992px) {
+  .landing__Content {
+    width: 95vw;
+    height: auto;
+    background-color: white;
+  }
+  .landing__h1 {
+    font-size: 1.625rem;
+    padding-right: 0.25rem;
+  }
+  .landing__h2 {
+    font-size: 1.1rem;
+  }
+  ol {
+    font-size: 1rem;
+  }
+
+  .landing__P {
+    text-align: justify;
+    width: 80%;
+    /* padding-left: 1.5rem; */
+    bottom: 7rem;
+    font-size: 0.7rem;
+  }
+
+  /* Adding Google Login to Mobile */
+  .landing__LoginMobile {
+    visibility: visible;
+    display: block;
+    padding: 1rem 0 10rem 0;
+  }
+}
+
+/* Login CSS (Right Side) */
+
+.landing__Login {
+  width: 30vw;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+/* Hiding Right div on mobile  */
+@media (max-width: 992px) {
+  .landing__Login {
+    visibility: hidden;
+    display: none;
+  }
+}
+
+/* Modal CSS */
+
+.landing__modal-hidden {
+  display: none;
+}
+
+.landing__modal-show {
+  display: block;
+}

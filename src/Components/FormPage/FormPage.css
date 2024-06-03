@@ -1,0 +1,83 @@
+/* General CSS */
+.form__Container {
+  display: flex;
+}
+
+@media (max-width: 992px) {
+  .form__Container {
+    display: block;
+  }
+}
+
+/* Left Container */
+
+.form__IllustrationBox {
+  width: 50vw;
+  height: 90vh;
+  padding-left: 2rem;
+  position: relative;
+}
+
+.form__Logo {
+  padding: 2rem 0 0 0;
+  width: 8rem;
+  height: auto;
+}
+
+.form__h1 {
+  font-size: 2rem;
+  font-weight: 300;
+}
+
+.form__MobileContent {
+  visibility: hidden;
+  display: none;
+}
+
+.form__Illustration {
+  position: absolute;
+  bottom: 0;
+  width: 79%;
+  height: auto;
+}
+
+@media (max-width: 992px) {
+  .form__h1 {
+    width: 95%;
+  }
+  .form__IllustrationBox {
+    width: auto;
+    height: auto;
+    padding-left: 1rem;
+  }
+  .form__MobileContent {
+    visibility: visible;
+    display: block;
+  }
+  .form__Illustration {
+    width: 100%;
+    height: auto;
+    position: relative;
+    text-align: center;
+  }
+}
+
+/* Right Container */
+
+.form__Content {
+  width: 50vw;
+  height: 90vh;
+  padding-top: 3.5rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+@media (max-width: 992px) {
+  .form__Content {
+    display: none;
+    visibility: hidden;
+    width: 0;
+    height: 0;
+  }
+}

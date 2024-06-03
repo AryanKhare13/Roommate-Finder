@@ -1,0 +1,95 @@
+.footerSection {
+  background-color: #e3f1ff;
+  padding-top: 2.5rem;
+}
+
+.footer__MobileTrendzLogo {
+  display: none;
+  visibility: hidden;
+}
+
+.footer {
+  display: flex;
+  padding-bottom: 2.5rem;
+}
+
+.footer__Logo {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 33%;
+}
+
+.trendzLogo {
+  width: 60%;
+  height: auto;
+  max-width: 10rem;
+}
+
+.footer__h1 {
+  font-weight: 600;
+  font-size: 1.2rem;
+}
+
+.footer__QuickLinks {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 34%;
+}
+
+.footer__QuickLinks > ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
+.footer__ContactUs {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 33%;
+}
+
+a,
+a:active,
+a:visited {
+  color: #000f3d;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #0040ff;
+}
+
+@media (max-width: 992px) {
+  .footer__MobileTrendzLogo {
+    display: flex;
+    visibility: visible;
+    justify-content: center;
+  }
+  .footer__Logo {
+    display: none;
+    visibility: hidden;
+    width: 0;
+  }
+  .footer__QuickLinks {
+    width: 50%;
+  }
+  .footer__ContactUs {
+    width: 50%;
+  }
+}
+
+/* Copyright Section */
+
+.copyrightSection {
+  background-color: #badcfb;
+  color: #001963;
+  font-size: 0.8rem;
+  text-align: center;
+  padding: 0.75rem 0;
+}

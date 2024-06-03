@@ -1,0 +1,40 @@
+.otp-input {
+  display: block;
+  border-style: none;
+  background-color: #e9e9ef;
+  height: 1.6rem;
+  width: 15rem;
+  border-radius: 0.4rem;
+  font-family: "Poppins", sans-serif;
+  text-align: center;
+  margin: 1.5rem 0;
+}
+
+.otp-message {
+  width: 15rem;
+  text-align: justify;
+}
+
+.otp-label {
+  display: block;
+  font-weight: 500;
+}
+
+.otp__SubmitBtn {
+  font-family: "Poppins", sans-serif;
+  margin: 0.7rem 0;
+  padding: 0.5rem 1rem;
+  color: white;
+  background-color: #207c00;
+  border-style: solid;
+  border-color: white;
+  border-radius: 0.4rem;
+}
+
+.otp__SubmitBtn:hover {
+  color: #207c00;
+  background-color: white;
+  border-style: solid;
+  border-color: #207c00;
+  transition: 0.4s;
+}

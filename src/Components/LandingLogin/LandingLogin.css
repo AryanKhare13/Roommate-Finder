@@ -1,0 +1,55 @@
+.landing__LoginContainer {
+  position: relative;
+  z-index: 99;
+  display: flex;
+  justify-content: center;
+}
+
+.red {
+  color: red;
+  font-weight: bold;
+}
+
+.landing__LoginContent {
+  padding: 2rem 6rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.landing__LoginGoogle {
+  width: 80%;
+  height: auto;
+  max-width: 15rem;
+}
+
+.landing__SignInBtn {
+  font-family: "Poppins", sans-serif;
+  margin: 0.7rem 0;
+  padding: 0.5rem 0;
+  width: 11.25rem;
+  color: white;
+  background-color: #5093f1;
+  border-style: solid;
+  border-color: white;
+  border-radius: 0.2rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.landing__SignInBtn:hover {
+  color: #5093f1;
+  background-color: white;
+  border-style: solid;
+  border-color: #5093f1;
+  transition: 0.4s;
+}
+
+@media (max-width: 992px) {
+  .landing__LoginContent {
+    width: 80%;
+    padding: 2rem 2rem;
+  }
+}

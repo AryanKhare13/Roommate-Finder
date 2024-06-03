@@ -1,0 +1,124 @@
+/* Header CSS */
+
+.dashboard__Header {
+  background-color: #e3f1ff;
+  padding-left: 4rem;
+}
+
+.dashboard__HeaderContentContainer {
+  display: flex;
+}
+
+.dashboard__Logo {
+  padding: 2rem 0 0 0;
+  width: 8rem;
+  height: auto;
+}
+
+.dashboard__HeaderH1 {
+  font-weight: 500;
+  font-size: 2rem;
+  padding-top: 1.5rem;
+}
+
+.dashboard__HeaderText {
+  width: 50%;
+}
+
+.dashboard__HeaderIllustrationContainer {
+  width: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.dashboard__HeaderIllustration {
+  padding-top: 0.5rem;
+  width: 90%;
+  height: auto;
+}
+
+@media (max-width: 992px) {
+  .dashboard__Header {
+    padding-left: 2rem;
+  }
+  .dashboard__HeaderContentContainer {
+    display: block;
+  }
+  .dashboard__HeaderText {
+    width: 100%;
+    height: auto;
+  }
+  .dashboard__HeaderIllustrationContainer {
+    width: 100%;
+    height: auto;
+  }
+}
+
+/* Dashboard Content CSS */
+
+.dashboard__Content {
+  padding-left: 4rem;
+}
+
+.dashboard__ContentH1 {
+  font-weight: 700;
+  font-size: 2rem;
+  color: #010a58;
+}
+
+.dashboard__ContentP {
+  font-size: 0.9rem;
+}
+
+.dashboard__ContentSpan {
+  font-weight: 500;
+}
+
+.dashboard__ContentH2 {
+  color: #010a58;
+  font-weight: 600;
+  font-size: 1.5rem;
+}
+
+.dashboard__DropdownContainer {
+  margin: 2rem 0;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+@media (max-width: 992px) {
+  .dashboard__Content {
+    padding-left: 2rem;
+  }
+}
+
+/* About Us */
+
+.dashboard__AboutUs {
+  padding: 4rem 0 4rem 4rem;
+}
+
+.dashboard__AboutUsH1 {
+  font-weight: 600;
+  font-size: 1.5rem;
+  color: #020826;
+}
+
+.dashboard__AboutUsP {
+  font-weight: 400;
+  font-size: 1rem;
+  padding-right: 4rem;
+  text-align: justify;
+}
+
+@media (max-width: 992px) {
+  .dashboard__AboutUs {
+    padding: 3rem 0 3rem 2rem;
+  }
+
+  .dashboard__AboutUsP {
+    padding-right: 2rem;
+  }
+}

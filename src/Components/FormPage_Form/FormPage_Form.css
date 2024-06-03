@@ -1,0 +1,105 @@
+.formPage__Container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.errorContainer {
+  display: flex;
+  align-items: center;
+  position: relative;
+  padding-bottom: 1.5rem;
+}
+
+.errorSign {
+  display: inline;
+  position: relative;
+  width: 1.5rem;
+  height: auto;
+}
+
+.errorText {
+  display: inline;
+  font-weight: 300;
+  font-size: 0.8rem;
+}
+
+.landing__Input {
+  display: block;
+  border-style: none;
+  background-color: #e9e9ef;
+  height: 1.6rem;
+  width: 15rem;
+  font-family: "Poppins", sans-serif;
+}
+
+.landing__Label {
+  display: block;
+}
+
+.form__FormGroup > form {
+  padding-left: 1rem;
+}
+
+.form__Label {
+  font-weight: 500;
+}
+
+.form__Input {
+  border-style: none;
+  background-color: #e9e9ef;
+  height: 1.6rem;
+  width: 15rem;
+  border-radius: 0.4rem;
+  font-family: "Poppins", sans-serif;
+  text-align: center;
+  margin-bottom: 1.5rem;
+}
+
+.form__LabelInputContainer {
+  display: flex;
+  justify-content: space-between;
+  width: 28rem;
+}
+
+.form__SubmitBtn {
+  font-family: "Poppins", sans-serif;
+  margin: 0.7rem 0;
+  padding: 0.5rem 1rem;
+  color: white;
+  background-color: #207c00;
+  border-style: solid;
+  border-color: white;
+  border-radius: 0.4rem;
+}
+
+.form__SubmitBtn:hover {
+  color: #207c00;
+  background-color: white;
+  border-style: solid;
+  border-color: #207c00;
+  transition: 0.4s;
+}
+
+.form__P {
+  padding-top: 1.5rem;
+  font-weight: 300;
+  font-size: 0.8rem;
+  color: #207c00;
+}
+
+@media (max-width: 992px) {
+  .form__LabelInputContainer {
+    display: block;
+    width: auto;
+  }
+  .form__Label {
+    display: block;
+  }
+  .form__Input {
+    display: block;
+  }
+  .form__FormGroup > form {
+    padding-left: 0;
+  }
+}
